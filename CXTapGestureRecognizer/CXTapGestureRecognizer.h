@@ -25,6 +25,6 @@
 
 @interface CXTapGestureRecognizer : UILongPressGestureRecognizer
 
-@property (unsafe_unretained) id <CXTapGestureRecognizerDelegate> delegate;
+@property (nonatomic, assign) id <CXTapGestureRecognizerDelegate> delegate;
 
 @end

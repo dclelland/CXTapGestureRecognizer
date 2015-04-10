@@ -16,6 +16,8 @@
 
 @implementation CXTapGestureRecognizer
 
+@dynamic delegate;
+
 - (instancetype)init
 {
     self = [super initWithTarget:self action:@selector(onTap:)];
