@@ -6,12 +6,12 @@
 #
 Pod::Spec.new do |s|
   s.name                    = "CXTapGestureRecognizer"
-  s.version                 = "0.1.0"
+  s.version                 = "1.0.0"
   s.summary                 = "UIGestureRecognizer subclass that takes much of the effort out of recognizing taps."
   s.homepage                = "https://github.com/dclelland/CXTapGestureRecognizer"
   s.license                 = { :type => 'MIT' }
   s.author                  = { "Daniel Clelland" => "daniel.clelland@gmail.com" }
-  s.source                  = { :git => "https://github.com/dclelland/CXTapGestureRecognizer.git", :tag => "0.1.0" }
+  s.source                  = { :git => "https://github.com/dclelland/CXTapGestureRecognizer.git", :tag => "1.0.0" }
   s.platform                = :ios, '7.0'
   s.ios.deployment_target   = '7.0'
   s.ios.source_files        = 'CXTapGestureRecognizer/*.{h,m}'
