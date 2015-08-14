@@ -31,7 +31,7 @@ UILongPressGestureRecognizer subclass that takes much of the effort out of recog
 
 ✓ Delegate method for cancellation.
 
-    - (BOOL)swipeGestureRecognizerShouldCancel:(CXSwipeGestureRecognizer *)gestureRecognizer
+    - (BOOL)tapGestureRecognizerShouldCancel:(CXSwipeGestureRecognizer *)gestureRecognizer
     {
         return YES;
     }
